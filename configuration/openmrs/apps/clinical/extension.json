@@ -45,20 +45,6 @@
     "order": 2,
     "requiredPrivilege": "app:clinical"
   },
-  "bahmniClinicalPatientsQueue": {
-    "id": "bahmni.clinical.patients.search.activeQueue",
-    "extensionPointId": "org.bahmni.patient.search",
-    "type": "config",
-    "extensionParams": {
-      "searchHandler": "emrapi.sqlSearch.todayQueue",
-      "translationKey": "MODULE_LABEL_TODAY_QUEUE_KEY",
-      "forwardUrl": "#/default/patient/{{patientUuid}}/dashboard",
-      "view": "tabular"
-    },
-    "label": "Active",
-    "order": 1,
-    "requiredPrivilege": "app:clinical"
-  },
   "bahmniClinicalPatientsSearchActivePatientsForPrograms": {
     "id": "bahmni.clinical.patients.search.activePatients",
     "extensionPointId": "org.bahmni.patient.search",
@@ -97,35 +83,6 @@
     "order": 7,
     "requiredPrivilege": "app:clinical"
   },
-"bahmniClinicalPatientsSearchActivePatientsForDrugOrders": {
-        "id": "bahmni.clinical.patients.search.drugOrderPatients",
-        "extensionPointId": "org.bahmni.patient.search",
-        "type": "config",
-        "extensionParams": {
-            "searchHandler": "emrapi.sqlSearch.drugOrderPatients",
-            "translationKey": "MODULE_LABEL_DRUGORDERS_KEY",
-            "forwardUrl": "#/default/patient/{{patientUuid}}/dashboard/treatment",
-	     "view": "tabular"
-        },
-        "label": "DrugOrders",
-        "order": 5,
-        "requiredPrivilege": "app:clinical"
-    },
-   "bahmniClinicalPatientsSearchPatientsDrugOrderDispensed": {
-        "id": "bahmni.clinical.patients.search.activePatientsDrugOrderDispensed",
-        "extensionPointId": "org.bahmni.patient.search",
-        "type": "config",
-        "extensionParams": {
-            "searchHandler": "emrapi.sqlSearch.drugOrderDispensedPatients",
-            "translationKey": "MODULE_LABEL_DRUGDISPENSED_KEY",
-            "forwardUrl": "#/default/patient/{{patientUuid}}/dashboard/treatment",
-            "view": "tabular"
-	},
-        "label": "DrugDispensed",
-        "order": 6,
-        "requiredPrivilege": "app:clinical"
-    },
-
   "bahmniClinicalConceptSetGroupObservationsHistory": {
     "id": "bahmni.clinical.conceptSetGroup.observations.history",
     "extensionPointId": "org.bahmni.clinical.conceptSetGroup.observations",

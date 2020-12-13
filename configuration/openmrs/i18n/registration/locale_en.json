@@ -24,6 +24,6 @@
   "REGISTRATION_PRINT_WITH_BARCODE": "Bar<u>c</u>ode Print",
   "Location.country": "Country",
   "Location.stateProvince": "Province",
-  "Location.address1": "Municipality",
+  "Location.address1": "City",
   "Location.address2": "Neighborhood"
 }

@@ -35,7 +35,7 @@
             },
 
             "autoCompleteFields":["familyName", "caste"],
-            "defaultIdentifierPrefix": "ALE",
+            "defaultIdentifierPrefix": "SGS",
             "defaultVisitType": "OPD",
             "searchByIdForwardUrl": "/patient/{{patientUuid}}",
             "showMiddleName": true,
@@ -76,11 +76,6 @@
                     "label": "Address",
                     "placeholder": "Enter House No./Street",
                     "field": "address1"
-                },
-                "customAttributes": {
-                    "label": "Phone Number/ID",
-                    "placeholder": "Enter Phone Number/ID", 
-                    "fields": ["primaryContact","secondaryContact","legacyID"]
                 }
             }
         }

@@ -40,6 +40,17 @@
                     "visitAttribute"
                 ]
             },
+      "formsDisplay": {
+        "type": "forms",
+        "displayOrder": 3,
+        "dashboardConfig": {
+          "title": null,
+          "maximumNoOfVisits": 50
+        },
+	"formGroup": [],
+        "translationKey": "Forms"
+      },
+
             "treatments":{
                 "translationKey":"DASHBOARD_TITLE_TREATMENTS_KEY",
                 "type":"treatment",
