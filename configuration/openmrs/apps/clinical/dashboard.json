@@ -81,11 +81,6 @@
                 "showDetailsButton":true,
                 "displayOrder":5
             },
-            "programs":{
-                "translationKey":"DASHBOARD_TITLE_PROGRAMS_KEY",
-                "type":"programs",
-                "displayOrder":6
-            },
             "radiologyOrders":{
                 "orderType":"Radiology Order",
                 "type":"ordersControl",
